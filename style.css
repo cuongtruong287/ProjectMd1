@@ -1,0 +1,90 @@
+* {
+    border: 0;
+    padding: 0;
+  }
+  .logo {
+    width: 200px;
+  }
+  .head-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: white;
+  }
+  .navbar {
+    background-color: 0;
+  }
+  h1 {
+    font-family: "Bebas Neue", cursive;
+  }
+
+  .cart-container {
+    padding: 10px;
+    font-size: 25px;
+  }
+
+  /* .checkout {
+    background-color: orange;
+  } */
+
+  .products {
+    margin: 120px;
+    padding: 20px;
+  }
+
+  .ranchu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 20px 0;
+  }
+
+  .liathia {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 20px 0;
+  }
+
+  #text-style {
+    color: rgb(250, 76, 76);
+    font-size: 80px;
+  }
+  .text-style2 {
+    font-size: 80px;
+  }
+  .catagory,
+  .text-style2 {
+    color: rgb(7, 186, 22);
+  }
+  .card-img {
+    padding: 5%;
+    background-color: rgba(241, 241, 241, 1);
+    margin: 4% auto;
+  }
+  .info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+  }
+  .card-img {
+    border-radius: 1em;
+  }
+  /* .price {
+    color: rgba(250, 190, 76, 1);
+    font-weight: bold;
+  } */
+  .card-footer,
+  .card-border {
+    background-color: rgb(255, 255, 255);
+    border: 0;
+  }
+  .btn {
+    background-color: rgba(164, 188, 70, 1);
+    color: white;
+  }
+  .footer-section {
+    background-color: hsla(72, 47%, 51%, 0.486);
+    padding: 3% 1% 1% 1%;
+  }
+  

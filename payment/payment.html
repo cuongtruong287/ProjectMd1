@@ -1,0 +1,165 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0"> 
+	<title>Thanh Toán</title> 
+	<link rel="stylesheet" href="./payment.css"> 
+</head> 
+
+<body> 
+	<div class="container"> 
+
+		<form action="#"> 
+
+			<div class="row"> 
+
+				<div class="col"> 
+					<h3 class="title"> 
+						Địa chỉ thanh toán
+					</h3> 
+
+					<div class="inputBox"> 
+						<label for="name"> 
+							Họ và Tên: 
+						</label> 
+						<input type="text" id="name"
+							placeholder="Enter your full name"
+							required> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="email"> 
+							Email: 
+						</label> 
+						<input type="text" id="email"
+							placeholder="Enter email address"
+							required> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="address"> 
+							Địa chỉ: 
+						</label> 
+						<input type="text" id="address"
+							placeholder="Enter address"
+							required> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="city"> 
+							Thành phố: 
+						</label> 
+						<input type="text" id="city"
+							placeholder="Enter city"
+							required> 
+					</div> 
+
+					<div class="flex"> 
+
+						<div class="inputBox"> 
+							<label for="state"> 
+								Quận: 
+							</label> 
+							<input type="text" id="state"
+								placeholder="Enter state"
+								required> 
+						</div> 
+
+						<div class="inputBox"> 
+							<label for="zip"> 
+								Mã bưu điện: 
+							</label> 
+							<input type="number" id="zip"
+								placeholder="123 456"
+								required> 
+						</div> 
+
+					</div> 
+
+				</div> 
+				<div class="col"> 
+					<h3 class="title">Thanh toán</h3> 
+
+					<div class="inputBox"> 
+						<label for="name"> 
+							Loại thẻ được áp dụng: 
+						</label> 
+						<img src="../icon/pay.png"
+							alt="credit/debit card image"> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="cardName"> 
+							Tên chủ thẻ: 
+						</label> 
+						<input type="text" id="cardName"
+							placeholder="Enter card name"
+							required> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="cardNum"> 
+							Mã số thẻ: 
+						</label> 
+						<input type="text" id="cardNum"
+							placeholder="1111-2222-3333-4444"
+							maxlength="19" required> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="">Tháng hiệu lực:</label> 
+						<select name="" id=""> 
+							<option value="">Chọn tháng</option> 
+							<option value="January">Tháng 1</option> 
+							<option value="February">Tháng 2</option> 
+							<option value="March">Tháng 3</option> 
+							<option value="April">Tháng 4</option> 
+							<option value="May">Tháng 5</option> 
+							<option value="June">Tháng 6</option> 
+							<option value="July">Tháng 7</option> 
+							<option value="August">Tháng 8</option> 
+							<option value="September">Tháng 9</option> 
+							<option value="October">Tháng 10</option> 
+							<option value="November">Tháng 11</option> 
+							<option value="December">Tháng 12</option> 
+						</select> 
+					</div> 
+
+
+					<div class="flex"> 
+						<div class="inputBox"> 
+							<label for="">Năm hiệu lực:</label> 
+							<select name="" id=""> 
+								<option value="">Choose Year</option> 
+								<option value="2023">2024</option> 
+								<option value="2024">2025</option> 
+								<option value="2025">2026</option> 
+								<option value="2026">2027</option> 
+								<option value="2027">2028</option> 
+							</select> 
+						</div> 
+
+						<div class="inputBox"> 
+							<label for="cvv">CVV</label> 
+							<input type="number" id="cvv"
+								placeholder="1234" required> 
+						</div> 
+					</div> 
+
+				</div> 
+
+			</div> 
+
+			<input type="submit" value="Tiến Hành Thanh Toán"
+				class="submit_btn"> 
+		</form> 
+
+	</div> 
+	<script type="text/javascript" src="./payment.js"></script> 
+</body> 
+
+</html>
+

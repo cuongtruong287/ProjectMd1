@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ĐĂNG NHẬP</title>
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+</head>
+
+<body>
+    <div class="login">
+        <form name='form-login'>
+
+            <h1>ĐĂNG KÝ</h1>
+
+            <label for="name">Email</label>
+            <input type="email" id="name" placeholder="Username" required>
+
+            <label for="pw">Password</label>
+            <input type="password" id="pw" placeholder="Password" required>
+            <i class="bi bi-eye-slash" id="togglePassword"></i>
+
+            <ul class="helper-text">
+                <li class="length">Tối đa 8 chữ số.</li>
+                <li class="lowercase">Phải có chữ in thường.</li>
+                <li class="uppercase">Phải có chữ in hoa.</li>
+                <li class="special">Phải có số.</li>
+            </ul>
+            <input id="rgstr_btn" type="submit" value="Đăng ký" onclick="store()">
+
+        </form>
+    </div>
+
+    <div class="login">
+        <form name='form-login'>
+
+            <h1>ĐĂNG NHẬP</h1>
+
+            <label for="userName">Email</label>
+            <input type="email" id="userName" placeholder="Username" required>
+
+            <label for="userPw">Password</label>
+            <input type="password" id="userPw" placeholder="Password" required>
+            <i class="far fa-eye" id="togglePassword"></i>
+
+
+            <div id="remember">
+                <input type="checkbox" value="lsRememberMe" id="rememberMe" style="display: inline-block;">
+                <label>Nhớ Mật Khẩu</label>
+            </div>
+
+            <input id="login_btn" type="submit" value="Đăng Nhập" onclick="check()">
+
+        </form>
+
+    </div>
+
+    <script src="./login.js"></script>
+</body>
+
+</html>
